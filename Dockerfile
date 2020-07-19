@@ -5,10 +5,9 @@ LABEL "com.github.actions.description"="Scan your code with SonarQube Scanner to
 LABEL "com.github.actions.icon"="check"
 LABEL "com.github.actions.color"="green"
 
-LABEL version="0.0.1"
-LABEL repository="https://github.com/kitabisa/sonarqube-action"
-LABEL homepage="https://kitabisa.github.io"
-LABEL maintainer="dwisiswant0"
+LABEL version="0.0.12"
+LABEL repository="https://github.com/basdp/sonarqube-action"
+LABEL maintainer="basdp"
 
 RUN npm config set unsafe-perm true && \
   npm install --silent --save-dev -g typescript@3.5.2 && \
